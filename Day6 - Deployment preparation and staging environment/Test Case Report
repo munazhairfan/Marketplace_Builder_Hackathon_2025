@@ -1,0 +1,10 @@
+Test Case ID,Test Case Description,Test Steps,Expected Results,Actual results,Status,Severity Level,Assigned to,Remarks
+01,Validate product listing page (shop),Open shop > Verify products,All products should be displayed correctly,All products are displayed correctly,Passed,Low,-,Working perfectly
+02,API error handling,Click on specific product > details of that product only,Show the details,The details were displayed and the error message was shown if product does not exist,Passed,Medium,-,Works as expected
+03,Check cart functionality,Add product to cart > verify cart product,The added product should be displayed in the cart,Cart should be updated with products,Passed,Medium,-,Cart works nicely
+04,Responsiveness across different devices,Resize browser window > Check layout,Layout should adjust to different screen sizes,Layout is working on different screen sizes,Passed,Low,-,Looks fine
+05,Check wish list functionality,Add the product to wish list > verify the addition of the product,Product should displayed in wish list,Product is added,Passed,Low,-,Works fine
+06,Category,Click on the link > the fetched products of the category displayed,The fetched products should be of the same category as the link clicked,The products are fetched correctly,Passed,Medium,-,Works as expected
+07,Checkout form,Submit the form > details sent to sanity,On submitting the form the details should be sent to sanity,The details are shown in sanity,Passed,High,-,Checkout form works nicely
+08,Search bar,Enter the text > searched products,Searched products should be displayed,The searched results are shown,Passed,Medium,-,Works great
+
